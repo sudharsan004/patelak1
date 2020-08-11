@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins',sans-serif;
+}
+
+.logo{
+    /* position: absolute;
+    top:-15px;
+    left: 25px; */
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+    margin-right: 30px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 20px;
+}
+nav ul li{
+    display:inline-block;
+    margin-right: 20px;
+    margin-top: 0px;
+}
+a{
+    text-decoration: none;
+    color:#555;
+}
+p{
+    color: #555;
+    margin-bottom: 25px;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 50px;
+    position: relative;
+    top: -35px;
+    /* background: linear-gradient(45deg,rgb(245, 188, 188),rgb(248, 152, 152)); */
+}
+
+.row{
+    margin-left:100px;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* position: relative;*/
+    bottom: 10px; 
+}
+
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 img{
+    max-width: 63%;
+    padding-top:  25px;
+    margin-left: 15%;
+    margin-top: 0;
+}
+
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+
+.btn{
+    display: inline-block;
+    background: #f8c25e;
+    color: #000;
+    padding:  8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: #563434;
+    color: #fff;
+}
+.header{
+    background: radial-gradient(#fff,#ffeaa7);
+    /* background: radial-gradient(#fff,rgb(245, 141, 123)); */
+}
+
+
+
+
+/* Featured products */
+
+.small-container{
+    max-width: 1088px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 7%;
+}
+.col-4{
+    flex-basis: 30%;
+    padding: 5px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    margin-left: 0;
+    transition: transform 0.5s;
+}
+
+.col-4 img{
+    width: 100%;
+    margin: 0;
+}
+ h2{
+    text-align: center;
+    margin: 30px auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+    
+}
+ h2::after{
+    content: '';
+    background: #fdcb6e;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.small-container .row{
+    margin-left: 0;
+}
+h4{
+    color: #555;
+    font-weight:normal ;
+}
+
+.col-4 p{
+    font-size: 14px;
+}
+
+.col-4:hover{
+    transform: translateY(-5px);
+}
+
+
+/* Footer */
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 15px;
+    padding: 60px 0 0px;
+    text-align: center;
+   
+}
+.footer p{
+    color: #8a8a8a;
+}
+.footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+.footer-col-1{
+    flex-basis: 30%;
+}
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+}
+.footer-col-3, .footer-col-4{
+    flex-basis: 12%;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    padding-bottom: 5px;
+}
+.app-logo{
+    margin-top: 20px;
+}
+.app-logo img{
+    width: 140px;
+}
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+    
+}
+.copyright{
+    margin-bottom: 0;
+}
+
+
+
+/* Contact US */
+input[type=text],input[type=email],input[type=password], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+.contact-btn {
+    background: #ffeaa7;
+    /* background-color: #4CAF50; */
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+  
+.contact-btn:hover {
+    background-color: #563434;
+    color: #fff;
+}
+  
+.contact-container {
+    border-radius: 5px;
+    /* background: radial-gradient(#fff,#ffeaa7); */
+    padding: 7% 15%;
+}
+
+.rating{
+    display: none;
+}
+
+
+/* login */
+.login-container{
+    padding:15% 35%;
+}
+
+/* Cart */
+thead{
+    color: #555;
+    
+}
+
+td{
+    padding-bottom: 5%;
+}
+td img{
+    padding: 2% 0%;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    /* border: 3px solid #f8c25e; */
+  }
+
